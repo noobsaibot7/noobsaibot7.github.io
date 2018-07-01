@@ -1,0 +1,139 @@
+/* 
+green:#7ed56f;
+medium green: #55c57a;
+dark green:28b485; 
+*/
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  font-size:16px;
+  color: #777;
+  line-height: 1.7;
+}
+
+.header {
+  height:100vh;
+  background-image: linear-gradient(rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8)), url(../img/Optimized-environment.jpg);
+  background-position: top;
+  background-size: cover;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
+  
+}
+
+.h_head{
+  color:#fff;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.h_primary{
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  padding: 0;
+
+}
+
+.h_secondary{
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  padding: 0;
+}
+
+.box__main{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box__main-para{
+  
+  color:#fff;
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 35px;
+  text-transform: uppercase;
+
+}
+
+.box__main-number{
+  font-size: 20px;
+  font-weight: 1000;
+  letter-spacing: 5px;
+  color: #000;
+  
+}
+
+.box__main-para-2{
+  color:#fff;
+  letter-spacing: 15px;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  left: 60px
+}
+
+.head-block{
+  background-color: aliceblue;
+  position:absolute;
+  top:160px;
+  border-left: 20px;
+  padding: 20px 60px 20px 150px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+
+}
+/* .curr-dropdown-1{
+  
+} */
+
+.head-block-1{
+  display: inline-flex;
+  margin-right: 60px;
+  padding: 0;
+  position: relative;
+  right: 40px;
+  
+}
+
+.head-block-2{
+  display: inline-flex;
+  
+}
+
+input{
+  padding: 7px;
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid #ccc;
+    width:150px;
+    padding: 10px 0 10px 30px;
+    border: none;
+    outline: none;
+    color: #0e6252;
+    border-bottom: solid 1px #1abc9c;
+    font-size: 20px
+
+}
+
+input[type="number"][disabled]{
+  background: rgba(255, 255, 255, 0.671);
+}
+
+
+
+

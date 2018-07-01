@@ -1,0 +1,51 @@
+
+
+
+
+/*Screen resolutions from 0 - 600px*/
+@media only screen and (max-width:600px){
+  .h_primary{
+    font-size: 20px;
+  }
+
+  .h_secondary{
+    font-size: 10px;
+
+  }
+  .box__main-para{
+    font-size: 30px;
+  }
+
+  .box__main-para-2{
+    color:#fff;
+    letter-spacing: 9px;
+    font-size: 15px;
+    align-items: center;
+    display: inline-flex;
+    left: 60px;
+  }
+  .box__main-number{
+    font-size: 17px;
+    letter-spacing: 3px;
+ 
+  }
+  .head-block{
+    background-color: aliceblue;
+    position:absolute;
+    top:160px;
+    border-left: 20px;
+    padding: 20px 60px 20px 150px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+  
+  }
+  .head-block-2{
+    position: relative;
+    right:40px;
+     
+  }
+  .head-block-1{
+    margin-bottom: 30px 
+  }
+}
